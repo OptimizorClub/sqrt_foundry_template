@@ -3,4 +3,11 @@ src = 'src'
 out = 'out'
 libs = ['lib']
 
-# See more config options https://github.com/foundry-rs/foundry/tree/master/config
+remappings = [
+    'forge-std=lib/forge-std/src/',
+]
+
+solc = '0.8.18'
+cbor_metadata = false
+optimizer_details.yulDetails.stackAllocation = true
+optimizer_details.yulDetails.optimizerSteps = ''
