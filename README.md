@@ -1,4 +1,7 @@
-# Optimizor Club SQRT challenge solution template
+
+<img align="right" width="150" height="150" top="100" src="./assets/sqrt.svg">
+
+# Optimizor Club SQRT challenge
 
 This repo provides a Foundry template to write solutions for the Optimizor Club
 SQRT challenge.
