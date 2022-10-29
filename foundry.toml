@@ -9,5 +9,3 @@ remappings = [
 
 solc = '0.8.18'
 cbor_metadata = false
-optimizer_details.yulDetails.stackAllocation = true
-optimizer_details.yulDetails.optimizerSteps = ''
