@@ -28,6 +28,15 @@ Since your solution must not have the metadata hash that `solc` adds to the
 bytecode, we need to use a pre-release of `solc` 0.8.18 and use the option
 `cbor_metadata = false` which you can see in `foundry.toml`.
 
+To test only your solution:
+
 ```bash
 $ forge test --use ./bin/solc
+```
+
+To test the full workflow including commit and challenge against the mainnet
+contracts:
+
+```bash
+$ forge test --use ./bin/solc --rpc-url $RPC_URL
 ```
